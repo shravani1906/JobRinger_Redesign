@@ -1,0 +1,101 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JobRinger - Find Your Dream Job</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="logo">JobRinger</div>
+    <nav class="mobile-nav">
+      <button class="menu-btn">&#9776;</button>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Jobs</a></li>
+        <li><a href="#">Post a Job</a></li>
+        <li><a href="#">Login</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Find Your Dream Job</h1>
+    <p>Search from thousands of opportunities across industries</p>
+    <form class="search-bar">
+      <input type="text" placeholder="Job title, company..." />
+      <input type="text" placeholder="Location" />
+      <button type="submit">Search</button>
+    </form>
+  </section>
+
+  <section class="features">
+    <div class="feature-box">
+      <h3>Verified Jobs</h3>
+      <p>Only trusted employers and listings.</p>
+    </div>
+    <div class="feature-box">
+      <h3>Real-Time Updates</h3>
+      <p>Instant alerts for new jobs matching your skills.</p>
+    </div>
+    <div class="feature-box">
+      <h3>Free to Use</h3>
+      <p>No charges, no catch – just great jobs.</p>
+    </div>
+  </section>
+
+  <section class="job-section">
+  <div class="job-locations">
+    <div class="jobs-india">
+      <h2>JOBS IN INDIA</h2>
+      <p>#Mumbai #Delhi #Ajmer #Pune #Hyderabad #Agra #Chennai #Kolkata #Indore #Gurugram #Jaipur #Ahmedabad</p>
+    </div>
+    <div class="jobs-international">
+      <h2>INTERNATIONAL JOBS</h2>
+      <p>#Africa #USA #UK #Australia #Canada #Singapore #Dubai #Saudi Arabia #New Zealand</p>
+    </div>
+  </div>
+
+  <div class="job-stats">
+    <div>
+      <h4>Jobs Posted</h4>
+      <p class="stat-number">40808</p>
+    </div>
+    <div>
+      <h4>Jobs Filled</h4>
+      <p class="stat-number">15153</p>
+    </div>
+    <div>
+      <h4>Employers</h4>
+      <p class="stat-number">25776</p>
+    </div>
+    <div>
+      <h4>Active Users</h4>
+      <p class="stat-number">1554182</p>
+    </div>
+  </div>
+
+  <div class="disclaimer">
+    <strong>Disclaimer:</strong> All Trademarks and Logos are the property of their respective owners. Jobringer.com shall not have any responsibility in this regard. All Jobseeker services are strictly designed & meant only for job search assistance.
+  </div>
+
+  <div class="recognized">
+    <span>Recognized By</span>
+    <img src="https://www.startupindia.gov.in/img/startupindia-logo.png" alt="Startup India Logo" />
+  </div>
+</section>
+
+
+  <footer class="footer">
+    <p>&copy; 2025 JobRinger. All rights reserved.</p>
+  </footer>
+
+  <script>
+    document.querySelector(".menu-btn").onclick = () => {
+      document.querySelector(".nav-links").classList.toggle("show");
+    };
+  </script>
+</body>
+</html>
